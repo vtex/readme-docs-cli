@@ -6,7 +6,7 @@
   "bin": {
     "readme": "./bin/run"
   },
-  "bugs": "https://github.com/gris/readme-docs-cli/issues",
+  "bugs": "https://github.com/vtex/readme-docs-cli/issues",
   "dependencies": {
     "@oclif/command": "^1",
     "@oclif/config": "^1",
@@ -36,7 +36,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/gris/readme-docs-cli",
+  "homepage": "https://github.com/vtex/readme-docs-cli",
   "keywords": [
     "oclif"
   ],
