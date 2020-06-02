@@ -44,7 +44,7 @@ export default class BulkCategoryChange extends Command {
         .on('end', (rowCount: number) => console.log(`There will be ${rowCount} docs updated`))
     } catch(e) {
       if (e.code === 'ENOENT') {
-        this.error(`Config file not found in ${path.join(this.config.configDir, 'readme-config.json')}. Use the following format to create it ${JSON.stringify(ChangeCategory.configurationFormat)}`)
+        this.error(`Config file not found in ${path.join(this.config.configDir, 'readme-config.json')}. Use the following format to create it ${JSON.stringify(BulkCategoryChange.configurationFormat)}`)
       }
     }
   }
