@@ -1,7 +1,7 @@
 {
   "name": "readme-docs-cli",
   "description": "Readme.com CLI",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "VTEX",
   "bin": {
     "readme": "./bin/run"
