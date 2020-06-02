@@ -19,7 +19,7 @@ $ npm install -g readme-docs-cli
 $ readme COMMAND
 running command...
 $ readme (-v|--version|version)
-readme-docs-cli/0.1.0 darwin-x64 node-v12.14.0
+readme-docs-cli/0.2.0 darwin-x64 node-v12.14.0
 $ readme --help [COMMAND]
 USAGE
   $ readme COMMAND
@@ -46,7 +46,7 @@ EXAMPLE
   $ readme change-category "vtex_io-documentation_customizing-your-stores-typography" "Style Recipes"
 ```
 
-_See code: [src/commands/change-category.ts](https://github.com/gris/readme-docs-cli/blob/v0.1.0/src/commands/change-category.ts)_
+_See code: [src/commands/change-category.ts](https://github.com/gris/readme-docs-cli/blob/v0.2.0/src/commands/change-category.ts)_
 
 ## `readme help [COMMAND]`
 
