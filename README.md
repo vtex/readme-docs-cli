@@ -19,7 +19,7 @@ $ npm install -g readme-docs-cli
 $ readme COMMAND
 running command...
 $ readme (-v|--version|version)
-readme-docs-cli/0.3.0 darwin-x64 node-v12.14.0
+readme-docs-cli/0.3.1 darwin-x64 node-v12.14.0
 $ readme --help [COMMAND]
 USAGE
   $ readme COMMAND
@@ -28,8 +28,26 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`readme bulk-category-change DOCCSVFILEPATH`](#readme-bulk-category-change-doccsvfilepath)
 * [`readme change-category DOCSLUG NEWCATEGORYSLUG`](#readme-change-category-docslug-newcategoryslug)
 * [`readme help [COMMAND]`](#readme-help-command)
+
+## `readme bulk-category-change DOCCSVFILEPATH`
+
+Change category of a CSV file containing documentation
+
+```
+USAGE
+  $ readme bulk-category-change DOCCSVFILEPATH
+
+OPTIONS
+  -h, --help  show CLI help
+
+EXAMPLE
+  $ readme bulk-category-change "vtex_io-documentation_customizing-your-stores-typography" "Style Recipes"
+```
+
+_See code: [src/commands/bulk-category-change.ts](https://github.com/vtex/readme-docs-cli/blob/v0.3.1/src/commands/bulk-category-change.ts)_
 
 ## `readme change-category DOCSLUG NEWCATEGORYSLUG`
 
@@ -46,7 +64,7 @@ EXAMPLE
   $ readme change-category "vtex_io-documentation_customizing-your-stores-typography" "Style Recipes"
 ```
 
-_See code: [src/commands/change-category.ts](https://github.com/vtex/readme-docs-cli/blob/v0.3.0/src/commands/change-category.ts)_
+_See code: [src/commands/change-category.ts](https://github.com/vtex/readme-docs-cli/blob/v0.3.1/src/commands/change-category.ts)_
 
 ## `readme help [COMMAND]`
 
