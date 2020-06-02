@@ -28,26 +28,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`readme bulk-category-change DOCCSVFILEPATH`](#readme-bulk-category-change-doccsvfilepath)
 * [`readme change-category DOCSLUG NEWCATEGORYSLUG`](#readme-change-category-docslug-newcategoryslug)
 * [`readme help [COMMAND]`](#readme-help-command)
-
-## `readme bulk-category-change DOCCSVFILEPATH`
-
-Change category of a CSV file containing documentation
-
-```
-USAGE
-  $ readme bulk-category-change DOCCSVFILEPATH
-
-OPTIONS
-  -h, --help  show CLI help
-
-EXAMPLE
-  $ readme bulk-category-change "vtex_io-documentation_customizing-your-stores-typography" "Style Recipes"
-```
-
-_See code: [src/commands/bulk-category-change.ts](https://github.com/vtex/readme-docs-cli/blob/v0.3.1/src/commands/bulk-category-change.ts)_
 
 ## `readme change-category DOCSLUG NEWCATEGORYSLUG`
 
