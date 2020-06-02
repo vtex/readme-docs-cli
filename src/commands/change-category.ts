@@ -51,4 +51,5 @@ interface Args {
 
 interface ReadmeConfig {
   API_KEY: string
-  VERSION: string}
+  VERSION: string
+}
