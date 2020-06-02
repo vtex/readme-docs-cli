@@ -19,7 +19,7 @@ $ npm install -g readme-docs-cli
 $ readme COMMAND
 running command...
 $ readme (-v|--version|version)
-readme-docs-cli/0.4.0 darwin-x64 node-v12.14.0
+readme-docs-cli/0.4.1 darwin-x64 node-v12.14.0
 $ readme --help [COMMAND]
 USAGE
   $ readme COMMAND
@@ -47,7 +47,7 @@ EXAMPLE
   $ readme bulk-category-change example.csv
 ```
 
-_See code: [src/commands/bulk-category-change.ts](https://github.com/vtex/readme-docs-cli/blob/v0.4.0/src/commands/bulk-category-change.ts)_
+_See code: [src/commands/bulk-category-change.ts](https://github.com/vtex/readme-docs-cli/blob/v0.4.1/src/commands/bulk-category-change.ts)_
 
 ## `readme change-category DOCSLUG NEWCATEGORYSLUG`
 
@@ -64,7 +64,7 @@ EXAMPLE
   $ readme change-category "vtex_io-documentation_customizing-your-stores-typography" "Style Recipes"
 ```
 
-_See code: [src/commands/change-category.ts](https://github.com/vtex/readme-docs-cli/blob/v0.4.0/src/commands/change-category.ts)_
+_See code: [src/commands/change-category.ts](https://github.com/vtex/readme-docs-cli/blob/v0.4.1/src/commands/change-category.ts)_
 
 ## `readme help [COMMAND]`
 
