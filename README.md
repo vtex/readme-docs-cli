@@ -46,7 +46,7 @@ EXAMPLE
   $ readme change-category "vtex_io-documentation_customizing-your-stores-typography" "Style Recipes"
 ```
 
-_See code: [src/commands/change-category.ts](https://github.com/gris/readme-docs-cli/blob/v0.2.0/src/commands/change-category.ts)_
+_See code: [src/commands/change-category.ts](https://github.com/vtex/readme-docs-cli/blob/v0.2.0/src/commands/change-category.ts)_
 
 ## `readme help [COMMAND]`
 

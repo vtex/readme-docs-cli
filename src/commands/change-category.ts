@@ -35,7 +35,7 @@ export default class ChangeCategory extends Command {
       const readmeClient = new Readme(API_KEY, VERSION)
       const newCategoryId = (await readmeClient.getCategory(convertSlugToApiFormat(newCategorySlug)))._id
       await readmeClient.updateDoc(docSlug, { category: newCategoryId, parentDoc: null })
-
+      this.log(`Changed category of doc ${docSlug} to ${newCategorySlug}`)
     } catch(e) {
       if (e.code === 'ENOENT') {
         this.error(`Config file not found in ${path.join(this.config.configDir, 'readme-config.json')}. Use the following format to create it ${JSON.stringify(ChangeCategory.configurationFormat)}`)
